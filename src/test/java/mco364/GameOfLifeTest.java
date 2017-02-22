@@ -18,13 +18,4 @@ public class GameOfLifeTest {
         assertTrue(g.isAliveNextGeneration(1, 3));
         assertFalse(g.isAliveNextGeneration(1, 1));
     }
-
-    @Test
-    public void testNeighbourCount() {
-        GameOfLife g = new GameOfLife(Board.Oscillator.BLINKER);
-        
-        assertEquals(3, g.neighborCount(1, 2));
-        assertEquals(2, g.neighborCount(1, 1));
-    }
-
 }
