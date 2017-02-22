@@ -1,4 +1,7 @@
 package mco364;
+//This is late because I was at a wedding pretty much all day monday.
+//Certian parts of my code peton and I worked on together bc we were
+//together over the weekend and will be the same in both our codes
 
 import java.util.ArrayList;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
